@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url(./images/title-build_01.jpg) no-repeat;
+   background-size: cover;
+    padding: 25px 0 225px;
+}
+
+ 
+ nav{
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   align-items: center;
+  
+}
+ nav ul{
+    display: flex;
+    
+}
+ nav ul li a{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+header nav ul li a:hover,header nav ul li a.active{
+    color: #b78601;
+}
+header .title{
+    width: 1111px;
+    margin: auto;
+    margin-top: 188px;
+}
+header .title h2{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 400;
+margin-bottom: 58px;
+}
+header .title h1{
+    color: #b78601;
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+header .title p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+ button{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius:30px;
+    cursor: pointer;
+}
+section.build{
+    width: 1111px;
+    margin: auto;
+
+}
+section.build h2{
+margin-top: 150px;
+margin-bottom: 85px;
+color: #565656;
+font-size: 22px;
+font-weight: 700;
+}
+section.build .box_img{
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+margin-bottom: 100px;
+}
+section.build .box_img img{
+    margin-top: 30px;
+}
+
+
+.section_girl{
+background: #181818;
+
+padding-bottom: 105px;
+}
+.section_girl h2{
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+.section_girl .otziv{
+    width: 1111px;
+    margin: auto;
+  
+}
+.section_girl .otziv h2{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+  
+}
+.section_girl .otziv .info{
+    display: flex;
+    justify-content: space-between;
+}
+.section_girl .otziv .info .info_ale{
+    width: 347px;
+    text-align: center;
+    align-items: center;
+}
+.section_girl .otziv .info .info_ale .f{
+
+    display: flex;  
+    flex-direction: column;
+  align-items: center;
+  margin-bottom: 27px;
+  margin-top: 25px;
+  
+}
+.section_girl .otziv .info .info_ale .f .iconka{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.section_girl .otziv .info .info_ale .f p{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.section_girl .otziv .info .info_ale p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.plitka{
+    
+   
+    padding-top: 150px ;
+}
+.plitka .home{
+    width: 1111px;
+    margin: auto;
+    
+   
+}
+.plitka .box{
+    display: flex;
+    justify-content: space-between;
+}
+.plitka .home h2{
+    color: #181818;
+    margin: 0;
+    
+}
+.plitka .home .home_info{
+    background: #181818;
+    border: 1px solid black;
+   width: 256px;
+   
+   margin-top: 100px;
+   padding-bottom: 40px;
+}
+.plitka .home .home_info .hp{
+    
+    color: #ffffff;
+    font-size:15px ;
+    margin: 25px 32px 23px;
+}
+.plitka .home .home_info .hp h2{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 23px;
+
+}
+
+.years12{
+    background: url(./images/title-build_02_02.jpg);
+    height: 860px;
+    margin-top: 150px;
+ padding-top: 200px;
+}
+.years12 .ofic_info{
+    width: 1111px;
+    margin:  auto;
+
+}
+.years12 .ofic_info h2{
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.years12 .ofic_info p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 150px;
+    }
+
+    footer{
+        background:#181818;
+       padding-top: 100px;
+    }
+    footer .footer_end{
+        width: 1111px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+   
+    }
+    footer .footer_end p{
+        width: 540px;
+        color: #7b7b7b;
+        font-size: 14px;
+line-height: 20px;
+    }
+    footer .footer_end .footer_link{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    footer .footer_end .footer_link a{
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 10px;
+       text-align: end;
+    }
+    footer .end{
+        width: 350px;
+        margin: auto;
+        margin-top: 40px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
